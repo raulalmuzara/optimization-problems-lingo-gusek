@@ -1,0 +1,39 @@
+Problem:    problem3
+Rows:       8
+Columns:    6 (6 integer, 3 binary)
+Non-zeros:  21
+Status:     INTEGER OPTIMAL
+Objective:  potential_buyers = 20000000 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 potential_buyers
+                               2e+07                             
+     2 budgets                   500                         500 
+     3 ms[T]                       0                          -0 
+     4 ms[R]                  -46000                          -0 
+     5 ms[B]                       0                          -0 
+     6 minimums[T]                 0            -0               
+     7 minimums[R]              3800            -0               
+     8 minimums[B]                 0            -0               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[T]         *              0             0               
+     2 x[R]         *           4000             0               
+     3 x[B]         *              0             0               
+     4 y[T]         *              0             0             1 
+     5 y[R]         *              1             0             1 
+     6 y[B]         *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

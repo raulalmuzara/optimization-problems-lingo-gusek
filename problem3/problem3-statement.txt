@@ -1,0 +1,28 @@
+Problem 3 - Integer programming with Gusek
+
+
+A prestigious company is going to launch a new product on the market.
+
+The company's advertising manager has a budget of 500 million euros to carry out the advertising campaign over the next 2 months.
+
+The advertiser has considered three possible advertising media: television, radio and billboards.
+Depending on the media used and the number of exposures (number of times the advertisement appears on television or radio, or the number of billboards placed),
+there is a different theoretical attraction of potential buyers.
+
+Each of the three advertising media has 2 associated costs: a fixed cost for the creation of the ad
+(recording the ad for television, recording the ad for radio or creating the template from which to print the billboards)
+and a variable cost for the number of exposures.
+
+The fixed costs for each type of ad are 300 million euros for television, 100 million euros for radio and 1 million euros for billboards.
+
+The variable costs per exposure for each type of ad are 2 million euros for television, 0.1 million euros for radio and 0.01 million euros for billboards.
+
+The number of potential buyers attracted by each ad exposure are 20,000 for television, 5,000 for radio and 50 for billboards.
+
+In addition, if it is decided to advertise on television, at least 100 repetitions of the ad must be made,
+if it is advertised on radio, at least 200 repetitions of the ad must be made,
+and if billboards are used, at least 2000 must be placed.
+
+Pose and solve a problem that allows to determine the media used, as well as the number of exposures
+(repetitions on television and/or radio and/or number of billboards placed)
+so as to maximize the number of potential buyers, while staying within the budget of 500 million euros.
