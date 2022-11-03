@@ -1,0 +1,16 @@
+Problem 1 - Linear programming with Lingo and Gusek: Basic construction of models.
+
+
+An agricultural association has two plots. Plot P1 has 400 hectares of usable land and 500 m3 of water,
+while plot P2 has 900 hectares of usable land and 1200 m3 of water.
+
+The recommended crops are beet and cotton.
+
+Beet consumes 3 m3 of water per hectare, with a profit of 700 monetary units per hectare.
+
+Cotton consumes 2 m3 of water per hectare, with a profit of 500 monetary units per hectare.
+
+A maximum production portion has been established for each crop equal to 800 hectares for beet and 600 hectares for cotton,
+and the total percentage of cultivated land must be the same in each of the two plots (if 40% is cultivated in P1 then also 40% in P2).
+
+Pose and solve the problem that allows to determine the production plan that maximizes profit.
