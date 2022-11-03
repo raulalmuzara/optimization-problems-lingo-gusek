@@ -1,0 +1,58 @@
+Problem:    problem2
+Rows:       13
+Columns:    10
+Non-zeros:  42
+Status:     OPTIMAL
+Objective:  Profit = 158492.5926 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Profit       B         158493                             
+     2 SheetMetal   NU         10000                       10000       17.2593 
+     3 ManufacturingHours
+                    B        2763.33                        3000 
+     4 FinishingHours
+                    B        4313.33                        5000 
+     5 MinimumW4    NL           300           300                          -7 
+     6 MinimumW5    NL           300           300                         -40 
+     7 MinimumW40   B        440.741           300               
+     8 MinimumW50   B        440.741           300               
+     9 CapacityDemand
+                    NL             0            -0                    -10.7037 
+    10 Motor1       NL             0            -0                       < eps
+    11 Motor2       NL             0            -0                       < eps
+    12 Programmer1  NL             0            -0                          -6 
+    13 Programmer2  NL             0            -0                         -11 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[W50]       B        440.741             0               
+     2 x[W40]       B        440.741             0               
+     3 x[W5]        B            300             0               
+     4 x[W4]        B            300             0               
+     5 m[P2]        B        881.481             0               
+     6 m[P1]        B            600             0               
+     7 m[M2]        B        881.481             0               
+     8 m[M1]        B            600             0               
+     9 b[P2]        NL             0             0                         -10 
+    10 b[P1]        NL             0             0                          -5 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

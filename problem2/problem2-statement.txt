@@ -1,0 +1,38 @@
+Problem 2 - Linear programming with Gusek: Loading external data and using more complex structures
+
+
+A manufacturer of household appliances produces four models of washing machines W4, W5, W40 and W50.
+
+These appliances consist mainly of a metal drum, covered with a sheet metal casing, which is rotated by an electric motor,
+and an electric programmer is used to control the operation of the washing machines.
+
+The W4 and W40 models have a lower load capacity (4 kg), requiring 5 m2 of sheet metal,
+while the W5 and W50 models are slightly larger (5 kg), requiring 8.5 m2 of sheet metal.
+The available quantity of sheet metal is 10,000 m2.
+
+The W4 and W5 models have a motor called M1 and a programmer called P1. The W40 and W50 models have an M2 motor and a P2 type programmer.
+The M1 motor is less powerful than the M2 and the P1 programmer has fewer options than the P2 programmer.
+The material required to manufacture the motors can be obtained with virtually no limitations.
+
+The motors are assembled in an assembly unit with a working capacity of 3,000 hours,
+1 hour being necessary to assemble an M1 motor and 1.5 hours to assemble an M2 motor.
+
+As for the programmers, they can either be manufactured in-house in a section of the assembly plant,
+or they can be ordered from an electronics manufacturer.
+In the first case, they compete with motor assembly (the motor manufacturing process takes hours of assembly in the assembly unit),
+requiring 0.3 hours to manufacture P1 at a cost of 6 euros and 0.75 hours to manufacture P2 at a cost of 11 euros.
+In the second case, the supplier can provide any quantity of P1 and P2 at a price of 11 and 21 euros, respectively.
+
+Finally, the washing machines are assembled in another finishing unit with a capacity of 5,000 working hours,
+requiring 1.5 hours for the W4 model, 2.3 hours for the W5 model, 3 hours for the W40 model and 4.2 hours for the W50 model.
+
+In order to satisfy all sectors, the manufacturer has decided that the minimum production of each model should be 300 units.
+
+As an additional fact, it is known, according to a report from the marketing department,
+that the demand for the higher capacity models is always higher than the demand for the lower capacity models.
+Therefore, the combined production of W5 and W50 must be higher than the combined production of W4 and W40.
+
+The profit provided by each model excluding labor and materials, except the programmer,
+is 96 euros for the W4 model, 102 euros for the W5 model, 108 euros for the W40 model and 147 euros for the W50 model.
+
+Pose and solve a linear programming model for the production planning of washing machines aiming at profit maximization.

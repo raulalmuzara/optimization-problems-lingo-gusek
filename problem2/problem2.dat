@@ -1,0 +1,8 @@
+data;
+set washing_machines:=W4 W5 W40 W50;
+set parts:=M1 M2 P1 P2;
+set programmers:=P1 P2;
+param m2_sheet_metal:=W4 5 W5 8.5 W40 5 W50 8.5;
+param manufacturing_hours:=M1 1 M2 1.5 P1 0.3 P2 0.75;
+param finishing_hours:=W4 1.5 W5 2.3 W40 3 W50 4.2;
+end;
